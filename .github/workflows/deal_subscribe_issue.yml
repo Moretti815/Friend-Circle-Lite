@@ -37,8 +37,7 @@ jobs:
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: `🤩你好呀！ ${context.payload.issue.user.login}！你已经成功通过邮件订阅了本站啦！若有新文章将通过邮箱推送给你！谢谢你的订阅！
-😥如果您实在想要关闭订阅，在右下角直接删除这个issue就好！咕咕咕咕咕咕咕！感谢你的订阅！`
+            body: '🤩你好呀！ ' + context.payload.issue.user.login + '！你已经成功通过邮件订阅了本站啦！若有新文章将通过邮箱推送给你！谢谢你的订阅！\n😥如果您实在想要关闭订阅，在右下角直接删除这个issue就好！咕咕咕咕咕咕咕！感谢你的订阅！'
           })
 
     - name: Close issue
