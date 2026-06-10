@@ -10,7 +10,7 @@ debug: false
 #   article_count: 每个站点最多抓取的文章数量
 spider_settings:
   enable: true
-  json_url: "https://b.200815.xyz/friend.json"
+  json_url: "https://b.2005815.xyz/friend.json"
   article_count: 5
 
 # 代理配置
@@ -65,7 +65,7 @@ email_push:
 # 说明：从 GitHub issue 中提取订阅邮箱，并推送你自己站点的新文章。
 rss_subscribe:
   enable: true
-  github_username: moretti815
+  github_username: Moretti815
   github_repo: Friend-Circle-Lite
   your_blog_url: https://b.2005815.xyz/
   email_template: "./push_templates/default.html"
@@ -80,7 +80,7 @@ rss_subscribe:
 #   use_tls：           是否使用 tls 加密
 smtp:
   email: 3149261770@qq.com
-  server: smtp.exmail.qq.com
+  server: smtp.qq.com
   port: 465
   use_tls: true
 
